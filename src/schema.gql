@@ -1,0 +1,98 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ImagesEntity {
+  uri: String!
+  set: String!
+}
+
+type GrsOrNt {
+  amount: Float!
+  currency: String!
+}
+
+type PhonesEntity {
+  type: String!
+  number: String!
+  uri: String!
+}
+
+type LatLong {
+  lon: Float!
+  lat: Float!
+}
+
+type AttributesEntity {
+  label: String!
+  tag: String
+  value: String!
+}
+
+type AdMobTargeting {
+  make: String!
+  model: String!
+  price: String!
+  dealer: String!
+  channel: String!
+  preis: String!
+  ma: String!
+  kw: String!
+  ez: String!
+  intid: String!
+  advid: String!
+}
+
+type Price {
+  gross: String!
+  grs: GrsOrNt
+  net: String!
+  nt: GrsOrNt
+  type: String!
+  vat: Int!
+}
+
+type Contact {
+  type: String!
+  country: String!
+  enumType: String!
+  name: String!
+  address1: String!
+  address2: String!
+  phones: [PhonesEntity!]
+  latLong: LatLong!
+  imprint: String!
+  withMobileSince: String!
+  canSendCcMail: Boolean!
+}
+
+type Dashboard {
+  id: Int!
+  sellerId: Int!
+  title: String!
+  makeId: Int!
+  makeKey: String!
+  modelKey: String!
+  images: [ImagesEntity!]
+  price: Price
+  vat: String!
+  contact: Contact
+  isNew: Boolean!
+  isConditionNew: Boolean!
+  isPreRegistration: Boolean!
+  category: String!
+  description: String!
+  attributes: [AttributesEntity!]
+  features: [String!]
+  hasDamage: Boolean!
+  isDamageCase: Boolean!
+  htmlDescription: String!
+  segment: String!
+  vc: String!
+  created: Int!
+  adMobTargeting: AdMobTargeting
+}
+
+type Query {
+  dashboard: Dashboard!
+}
