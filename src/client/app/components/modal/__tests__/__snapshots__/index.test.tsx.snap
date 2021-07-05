@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryModal renders correctly with modal component 1`] = `
+<div>
+  <div>
+    <div
+      class="modal__StyledOverlay-sc-512xae-1 dfXBME"
+    />
+    <div
+      class="modal__StyledContainer-sc-512xae-0 kyDfPY"
+    >
+      <div
+        class="modal__StyledBody-sc-512xae-5 hkFgGp"
+      >
+        <a
+          class="modal__StyledAnchorClose-sc-512xae-2 hQUDcx"
+          href="#"
+        >
+          ×
+        </a>
+        <a
+          class="modal__StyledAnchorNext-sc-512xae-3 hjJdIc"
+          href="#"
+        >
+          ›
+        </a>
+        <img
+          src="https://particleforward.com/api/challenge/assets/image1_27.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

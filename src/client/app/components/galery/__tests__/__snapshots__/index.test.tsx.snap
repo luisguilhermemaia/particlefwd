@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery renders correctly with Gallery component 1`] = `
+<div>
+  <div
+    class="galery__StyledContainer-sc-1x9cw2l-0 dyJuLe"
+  >
+    <div
+      class="galery__StyledGrid-sc-1x9cw2l-1 kHohyy"
+    >
+      <div
+        class="galery__StyledDiv-sc-1x9cw2l-2 sRWto"
+      >
+        <img
+          src="https://particleforward.com/api/challenge/assets/image1_2.jpg"
+        />
+      </div>
+      <div
+        class="galery__StyledDiv-sc-1x9cw2l-2 sRWto"
+      >
+        <img
+          src="https://particleforward.com/api/challenge/assets/image1_2.jpg"
+        />
+      </div>
+      <div
+        class="galery__StyledDiv-sc-1x9cw2l-2 sRWto"
+      >
+        <img
+          src="https://particleforward.com/api/challenge/assets/image2_2.jpg"
+        />
+      </div>
+      <div
+        class="galery__StyledDiv-sc-1x9cw2l-2 sRWto"
+      >
+        <img
+          src="https://particleforward.com/api/challenge/assets/image3_2.jpg"
+        />
+      </div>
+      <div
+        class="galery__StyledDiv-sc-1x9cw2l-2 sRWto"
+      >
+        <img
+          src="https://particleforward.com/api/challenge/assets/image4_2.jpg"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

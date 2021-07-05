@@ -401,3 +401,4 @@ dist
 notes.md
 
 .next
+/dist
